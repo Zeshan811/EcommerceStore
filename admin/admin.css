@@ -1,0 +1,101 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+  background: #eef2f7;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+form input,
+form select {
+  flex: 1 1 200px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #fff;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  background: #3498db;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #2980b9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+th {
+  background: #3498db;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+td button {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+}
+
+td button:hover {
+  opacity: 0.8;
+}
+
+td button:first-child {
+  background: #27ae60;
+}
+
+td button:last-child {
+  background: #e74c3c;
+}
