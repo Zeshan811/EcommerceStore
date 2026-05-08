@@ -1,14 +1,3 @@
-Based on your structure:
-
-```
-admin/
-assets/
-store/
-index.css
-index.html
-```
-
-Here is a **clean README + proper project structure explanation** for your project:
 
 ---
 
