@@ -119,9 +119,3 @@ This project is created for learning and portfolio purposes.
 ```
 
 ---
-
-If you want, I can also:
-✔ :contentReference[oaicite:0]{index=0}  
-✔ or :contentReference[oaicite:1]{index=1}  
-✔ or :contentReference[oaicite:2]{index=2}
-```
